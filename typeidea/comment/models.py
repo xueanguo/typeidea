@@ -3,7 +3,7 @@ from django.db import models
 from blog.models import Post
 
 
-class Commnet(models.Model):
+class Comment(models.Model):
     STATUS_NORMAL = 1
     STATUS_DELETE = 0
     STATUS_ITEMS = (
